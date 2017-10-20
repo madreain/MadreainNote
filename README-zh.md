@@ -6,4 +6,4 @@
 
 ## Mac
 
-[Mac English](https://github.com/madreain/MadreainNote/blob/master/Mac/Mac.md) | [Mac 中文](https://github.com/madreain/MadreainNote/blob/master/Mac/Mac-zh.md)
+[Mac English](Mac/Mac.md) | [Mac 中文](https://github.com/madreain/MadreainNote/blob/master/Mac/Mac-zh.md)
