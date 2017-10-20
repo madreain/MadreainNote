@@ -1,4 +1,4 @@
-# MadreainNote
+# Mac
 
 This is a repository of Mac applications, software, tools
 
