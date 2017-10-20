@@ -7,3 +7,7 @@
 ## Mac
 
 [Mac English](Mac/Mac.md) | [Mac 中文](Mac/Mac-zh.md)
+
+## Android
+
+[Android English](Android/Android.md) | [Android 中文](Android/Android-zh.md)
