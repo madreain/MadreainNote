@@ -1,5 +1,5 @@
 # MadreainNote
 
-这是一个收集Mac应用程序、软件、工具的仓库
+记录工作中的点点滴滴，涉及到Mac中的软件，Android开发等
 
 [English](README.md) | [中文](README-zh.md)
