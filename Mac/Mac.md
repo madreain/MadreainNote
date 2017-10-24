@@ -1,6 +1,6 @@
 # Mac
 
-This is a repository of Mac applications, software, tools
+This is a repository of Mac applications, software, tools
 
 [English](Mac.md) | [中文](Mac-zh.md)
 
@@ -152,7 +152,6 @@ This is a repository of Mac applications, software, tools
     * [tmux](https://github.com/tmux/tmux)
     * [mas](https://github.com/mas-cli/mas)
     * [cmus](https://cmus.github.io/)
-    * [Serial](https://www.decisivetactics.com/products/serial/)
 
 * Version Control Systems
 

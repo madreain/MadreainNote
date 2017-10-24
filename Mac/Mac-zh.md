@@ -1,6 +1,6 @@
 # Mac
 
-这是一个收集Mac应用程序、软件、工具的仓库，
+这是一个收集Mac应用程序、软件、工具的仓库，
 
 [English](Mac.md) | [中文](Mac-zh.md)
 
@@ -156,7 +156,7 @@
     * [tmux](https://github.com/tmux/tmux)
     * [mas](https://github.com/mas-cli/mas)
     * [cmus](https://cmus.github.io/)
-    * [Serial](https://www.decisivetactics.com/products/serial/)
+
 
 * 版本管理工具
 
