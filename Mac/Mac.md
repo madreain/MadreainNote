@@ -6,19 +6,19 @@ This is a repository of Mac applications, software, tools
 
 ## Contents
 
--[Editor](#Editor)
+-[Editor](#editor)
 
--[Tool](#Tool)
+-[Tool](#tool)
 
--[Virtual Machine](#Virtual-Machine)
+-[Virtual Machine](#virtual-machine)
 
--[FTP](#FTP)
+-[FTP](#ftp)
 
--[Product and Design](#Product-and-Design)
+-[Product and Design](#product-and-design)
 
--[Creation](#Creation)
+-[Creation](#creation)
 
--[Computer Aided Tools](#Computer-Aided-Tools)
+-[Computer Aided Tools](#computer-aided-tools)
 
 ## Editor
 

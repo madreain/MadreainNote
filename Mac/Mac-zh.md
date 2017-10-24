@@ -12,7 +12,7 @@
 
 -[虚拟机](#虚拟机)
 
--[FTP](#FTP)
+-[FTP](#ftp)
 
 -[产品与设计](#产品与设计)
 
@@ -220,18 +220,18 @@
 
 ## 虚拟机
 
-    * [Parallels Desktop](http://www.parallels.com/)
-    * [Virtual Box](http://www.virtualbox.org)
-    * [VMWare Fusion](http://www.vmware.com/)
-    * [Veertu](https://veertu.com)
+* [Parallels Desktop](http://www.parallels.com/)
+* [Virtual Box](http://www.virtualbox.org)
+* [VMWare Fusion](http://www.vmware.com/)
+* [Veertu](https://veertu.com)
 
 ## FTP
 
-    * [Transmit](https://panic.com/transmit/)
-    * [Flow](http://fivedetails.com/flow/)
-    * [Yummy FTP](http://www.yummysoftware.com)
-    * [Cyberduck](https://cyberduck.io)
-    * [FileZilla](https://filezilla-project.org)
+* [Transmit](https://panic.com/transmit/)
+* [Flow](http://fivedetails.com/flow/)
+* [Yummy FTP](http://www.yummysoftware.com)
+* [Cyberduck](https://cyberduck.io)
+* [FileZilla](https://filezilla-project.org)
 
 ## 产品与设计
 
