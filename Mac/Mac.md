@@ -80,33 +80,32 @@ This is a repository of Mac applications, software, tools
 
     * [WeFlow](https://weflow.io/)  Development tools for front-end workflows based on[tmt-workflow](https://github.com/weixin/tmt-workflow).
     * [Koala](http://koala-app.com)  A GUI application for Less, Sass, Compass and CoffeeScript compilation.
-    * [CodeKit](https://incident57.com/codekit/)  Web development tool which can automatically compile Less, Sass, CoffeeScript, TypeScript, Jade and JavaScript, auto-refresh browsers and much more.
-    * [PaintCode](https://www.paintcodeapp.com/)  PaintCode is a unique vector drawing app that generates Objective-C or Swift code in real time, acting as a bridge between developers and graphic designers.
+    * [CodeKit](https://incident57.com/codekit/)  Web development tool which can automatically compile Less, Sass, CoffeeScript, TypeScript, Jade and JavaScript, auto-refresh browsers and much more.  Download:[CodeKit](https://pan.baidu.com/s/1o7AppBs) Password: b91r
+    * [PaintCode](https://www.paintcodeapp.com/)  PaintCode is a unique vector drawing app that generates Objective-C or Swift code in real time, acting as a bridge between developers and graphic designers.  Download:[PaintCode](https://pan.baidu.com/s/1hrNYE1I) Password: bn1x
     * [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)  A system preference pane to manage your hosts file.
     * [iHosts](http://toolinbox.net/en/iHosts/)  The only `/etc/hosts` editor on Mac App Store.
     * [SwitchHosts](https://oldj.github.io/SwitchHosts/)  A free and open-source app for hosts management & switching.
     * [Gas Mask](https://github.com/2ndalpha/gasmask)  A simple hosts file manager for Mac OS X.
     * [DiffMerge](http://sourcegear.com/diffmerge/)  An application to visually compare and merge files.
-    * [Gemini](https://macpaw.com/gemini)  An intelligent duplicate file finder.
-    * [BetterRename](http://www.publicspace.net/BetterRename/)  The most powerful and complete Mac file renaming application on the market. * [PPRows](https://github.com/jkpang/PPRows)  An application which can calculate how many lines of code you write.
+    * [Gemini](https://macpaw.com/gemini)  An intelligent duplicate file finder.  Download:[Gemini](https://pan.baidu.com/s/1bp1y5T9) Password: duvu
+    * [BetterRename](http://www.publicspace.net/BetterRename/)  The most powerful and complete Mac file renaming application on the market.
+    * [PPRows](https://github.com/jkpang/PPRows)  An application which can calculate how many lines of code you write.
     * [Beyond Compare](http://www.scootersoftware.com/)  Compare files and folders using simple, powerful commands that focus on the differences you are interested in and ignore those you are not.
-    * [Kaleidoscope](http://www.kaleidoscopeapp.com/)  A powerful compare tool for text, images and folders. It works perfectly with git, svn or other version control tools.
+    * [Kaleidoscope](http://www.kaleidoscopeapp.com/)  A powerful compare tool for text, images and folders. It works perfectly with git, svn or other version control tools.   Download:[Kaleidoscope](https://pan.baidu.com/s/1miJxghy) Password: 66qb
     * [Fanvas](https://github.com/TencentOpen/Fanvas)  Convert swf to html canvas animation.
     * [EnvPane](https://github.com/hschmidt/EnvPane)  An OS X preference pane for environment variables. [
-    * [Dash](https://kapeli.com/dash)  Awesome API documentation browser and code snippet manager.
+    * [Dash](https://kapeli.com/dash)  Awesome API documentation browser and code snippet manager.  Download:[Dash](https://pan.baidu.com/s/1kU6XEOB) Password: qwpq
     * [DLite](https://github.com/nlf/dlite)  The simplest way to use Docker on OS X.
-    * [SnippetsLab](https://www.renfei.org/snippets-lab/)  Easy-to-use code snippets manager.
+    * [SnippetsLab](https://www.renfei.org/snippets-lab/)  Easy-to-use code snippets manager.  Download:[SnippetsLab](https://pan.baidu.com/s/1hrFRryW) Password: uvxp
     * [StarUML](http://staruml.io)  Powerful UML app.
     * [Vagrant Manager](http://vagrantmanager.com)  Manage your vagrant machines in one place.
-    * [zeplin](https://www.zeplin.io/)  A collaboration tool for work between designers and developers.
-    * [Go2Shell](http://zipzapmac.com/Go2Shell)  Open terminal from Finder.
-    * [SecureCRT](https://www.vandyke.com/products/securecrt/)  A terminal emulation which supports SSH, Telnet or other protocols.
-    * [Finicky](https://johnste.github.io/finicky/)  An application that allows you to set up rules that decide which browser is opened for every link that would open the default browser.
-    * [MJML](https://mjmlio.github.io/mjml-app/)  A framework that utilizes a semantic syntax and a rich standard components library, which allow users to easily create responsive emails.
-    * [TeXstudio](http://www.texstudio.org)  An integrated writing environment for creating LaTeX documents.
-    * [Vagrant](https://www.vagrantup.com)  A tool for building and distributing development environments.
     * [FinderGo](https://github.com/onmyway133/FinderGo)  Open terminal quickly from Finder.
     * [Localname](http://localname.io/)  Provide access to your local development server.
+    * [zeplin](https://www.zeplin.io/)  A collaboration tool for work between designers and developers.
+    * [Go2Shell](http://zipzapmac.com/Go2Shell)  Open terminal from Finder.
+    * [SecureCRT](https://www.vandyke.com/products/securecrt/)  A terminal emulation which supports SSH, Telnet or other protocols.   下载地址:[SecureCRT](https://pan.baidu.com/s/1b5ohps) Password: 7sch
+    * [MJML](https://mjmlio.github.io/mjml-app/)  A framework that utilizes a semantic syntax and a rich standard components library, which allow users to easily create responsive emails.
+    * [Vagrant](https://www.vagrantup.com)  A tool for building and distributing development environments.
     * [LaunchRocket](https://github.com/jimbojsb/launchrocket)  Brew services management in Mac System Preferences.
 
 * Regular Expression Editors

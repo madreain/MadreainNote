@@ -84,32 +84,31 @@
 
     * [WeFlow](https://weflow.io/) - 一个基于 [tmt-workflow](https://github.com/weixin/tmt-workflow) 前端工作流的开发工具。
     * [Koala](http://koala-app.com) - 预处理器语言图形编译工具，支持Less、Sass、CoffeeScript、Compass framework 的即时编译。
-    * [CodeKit](https://incident57.com/codekit/) - 自动编译Less、Sass、Stylus、CoffeeScript、Jade & Haml等文件。
-    * [PaintCode](https://www.paintcodeapp.com/) - 将设计转换成Objective-C,Swift或C#代码。
+    * [CodeKit](https://incident57.com/codekit/) - 自动编译Less、Sass、Stylus、CoffeeScript、Jade & Haml等文件。 下载地址:[CodeKit](https://pan.baidu.com/s/1o7AppBs) 密码: b91r
+    * [PaintCode](https://www.paintcodeapp.com/) - 将设计转换成Objective-C,Swift或C#代码。 下载地址:[PaintCode](https://pan.baidu.com/s/1hrNYE1I) 密码: bn1x
     * [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane) - 编辑 hosts 文件的工具。
     * [iHosts](http://toolinbox.net/iHosts/) - 唯一上架 Mac App Store 的 /etc/hosts 编辑神器。
     * [SwitchHosts](https://oldj.github.io/SwitchHosts/) - 一个管理、切换多个 hosts 方案的工具。
     * [Gas Mask](https://github.com/2ndalpha/gasmask) - 编辑 hosts 文件的工具，更简单方便。
     * [DiffMerge](http://sourcegear.com/diffmerge/) - 可视化的文件比较（也可进行目录比较）与合并工具。
-    * [Gemini](https://macpaw.com/gemini) - 智能的重复文件查找器。
+    * [Gemini](https://macpaw.com/gemini) - 智能的重复文件查找器。 下载地址:[Gemini](https://pan.baidu.com/s/1bp1y5T9) 密码: duvu
     * [BetterRename](http://www.publicspace.net/BetterRename/) - 一款强大的批量重命名工具，可以通过搜索功能改名。
     * [PPRows](https://github.com/jkpang/PPRows) - 计算你写了多少行代码。
     * [Beyond Compare](http://www.scootersoftware.com/download.php) - 对比两个文件夹或者文件，并将差异以颜色标示。
-    * [Kaleidoscope](http://www.kaleidoscopeapp.com/) - 一款很强大的文本文件和图像比较工具，同时和 git、svn 等版本控制工具能够完美的结合。
+    * [Kaleidoscope](http://www.kaleidoscopeapp.com/) - 一款很强大的文本文件和图像比较工具，同时和 git、svn 等版本控制工具能够完美的结合。 下载地址:[Kaleidoscope](https://pan.baidu.com/s/1miJxghy) 密码: 66qb
     * [Fanvas](https://github.com/TencentOpen/Fanvas) - 把swf转为HTML5 canvas动画的系统。
     * [EnvPane](https://github.com/hschmidt/EnvPane) - 图形终端查看环境变量的应用工具。
-    * [Dash](https://kapeli.com/dash) - 强大到你无法想象的API离线文档软件。
+    * [Dash](https://kapeli.com/dash) - 强大到你无法想象的API离线文档软件。 下载地址:[Dash](https://pan.baidu.com/s/1kU6XEOB) 密码: qwpq
     * [Dlite](https://github.com/nlf/dlite) - 简单的使用Docker的一个软件。
-    * [SnippetsLab](https://www.renfei.org/snippets-lab/) - 管理和组织你的代码片段。
+    * [SnippetsLab](https://www.renfei.org/snippets-lab/) - 管理和组织你的代码片段。 下载地址:[SnippetsLab](https://pan.baidu.com/s/1hrFRryW) 密码: uvxp
     * [StarUML](http://staruml.io) - 强大的软件建模软件。
     * [Vagrant Manager](http://vagrantmanager.com) - 管理你本地服务。
     * [FinderGo](https://github.com/onmyway133/FinderGo) Finder中快速打开终端，定位到目录
     * [Localname](http://localname.io/) - 提供对本地开发服务器的访问权限。
     * [zeplin](https://www.zeplin.io/) - 前端与设计协同工作专用工具。
     * [Go2Shell](http://zipzapmac.com/Go2Shell) - 从Finder打开命令行。
-    * [SecureCRT](https://www.vandyke.com/products/securecrt/) - 一款支持SSH、Telnet等多种协议的终端仿真程序。
+    * [SecureCRT](https://www.vandyke.com/products/securecrt/) - 一款支持SSH、Telnet等多种协议的终端仿真程序。 下载地址:[SecureCRT](https://pan.baidu.com/s/1b5ohps) 密码: 7sch
     * [MJML](https://mjmlio.github.io/mjml-app/) - 简化设计回应电子邮件的方式。
-    * [TeXstudio](http://www.texstudio.org) - 集成创建LaTeX文档的写作环境。 ]
     * [Vagrant](https://www.vagrantup.com) - 用来构建虚拟开发环境的工具。
     * [LaunchRocket](https://github.com/jimbojsb/launchrocket) - Mac系统的首选管理服务。
 
