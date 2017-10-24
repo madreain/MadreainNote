@@ -122,14 +122,13 @@
 
 * 测试工具
 
-    * [Charles](https://www.charlesproxy.com/)
+    * [Charles](https://www.charlesproxy.com/) 下载地址:[Charles](https://pan.baidu.com/s/1bp6irs7) 密码: ufm6
     * [Wireshark](https://www.wireshark.org)
     * [James](https://github.com/james-proxy/james)
     * [mitmproxy](https://mitmproxy.org/)
     * [Insomnia 3.0](http://insomnia.rest/)
     * [Cocoa Rest Client](https://mmattozzi.github.io/cocoa-rest-client/)
-    * [Paw](https://luckymarmot.com/paw)
-    * [Cellist](http://cellist.patr0n.us/index.html)
+    * [Paw](https://luckymarmot.com/paw)  下载地址:[Paw](https://pan.baidu.com/s/1cEXLYu) 密码: 5xbt
     * [Integrity](http://peacockmedia.software/mac/integrity/free.html)
     * [Postman](https://www.getpostman.com)
 

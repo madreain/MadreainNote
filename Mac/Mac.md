@@ -118,14 +118,13 @@ This is a repository of Mac applications, software, tools
 
 * Test Tools
 
-    * [Charles](https://www.charlesproxy.com/)
+    * [Charles](https://www.charlesproxy.com/)  Download:[Charles](https://pan.baidu.com/s/1bp6irs7) Password: ufm6
     * [Wireshark](https://www.wireshark.org)
     * [James](https://github.com/james-proxy/james)
     * [mitmproxy](https://mitmproxy.org/)
     * [Insomnia 3.0](http://insomnia.rest/)
     * [Cocoa Rest Client](https://mmattozzi.github.io/cocoa-rest-client/)
-    * [Paw](https://luckymarmot.com/paw)
-    * [Cellist](http://cellist.patr0n.us/index.html)
+    * [Paw](https://luckymarmot.com/paw)  Download:[Paw](https://pan.baidu.com/s/1cEXLYu) Password: 5xbt
     * [Integrity](http://peacockmedia.software/mac/integrity/free.html)
     * [Postman](https://www.getpostman.com)
 
