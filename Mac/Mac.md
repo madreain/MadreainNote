@@ -217,18 +217,18 @@ This is a repository of Mac applications, software, tools
 
 ## Virtual Machine
 
-    * [Parallels Desktop](http://www.parallels.com/)
-    * [Virtual Box](http://www.virtualbox.org)
-    * [VMWare Fusion](http://www.vmware.com/)
-    * [Veertu](https://veertu.com)
+* [Parallels Desktop](http://www.parallels.com/)
+* [Virtual Box](http://www.virtualbox.org)
+* [VMWare Fusion](http://www.vmware.com/)
+* [Veertu](https://veertu.com)
 
 ## FTP
 
-    * [Transmit](https://panic.com/transmit/)
-    * [Flow](http://fivedetails.com/flow/)
-    * [Yummy FTP](http://www.yummysoftware.com)
-    * [Cyberduck](https://cyberduck.io)
-    * [FileZilla](https://filezilla-project.org)
+* [Transmit](https://panic.com/transmit/)
+* [Flow](http://fivedetails.com/flow/)
+* [Yummy FTP](http://www.yummysoftware.com)
+* [Cyberduck](https://cyberduck.io)
+* [FileZilla](https://filezilla-project.org)
 
 ## Product and Design
 
