@@ -25,7 +25,7 @@ This is a repository of Mac applications, software, tools
 * General Editor
 
   * [Sublime Text](http://www.sublimetext.com/) A sophisticated text editor for code, markup and prose
-  * [ATOM](https://atom.io/)A hackable text editor for the 21st Century
+  * [ATOM](https://atom.io/) A hackable text editor for the 21st Century
   * [Visual Studio Code](https://code.visualstudio.com/) Free. Open source. Runs everywhere.
   * [Vim](http://www.vim.org/) the ubiquitous text editor
   * [Vimr](http://vimr.org/) Refined NeoVim Experience for macOS
@@ -52,9 +52,9 @@ This is a repository of Mac applications, software, tools
 * IOS
 
     * [Xcode](https://developer.apple.com/xcode/)
-    * [AppCode](https://www.jetbrains.com/objc/)
+    * [AppCode](https://www.jetbrains.com/objc/)  Download:[AppCode](https://pan.baidu.com/s/1sljvcKl) Password: k29b
 
-* 前端
+* Front-end
 
     * [WebStorm](https://www.jetbrains.com/webstorm/) Download： [WebStorm](https://pan.baidu.com/s/1dEUQlVF) Password: trfp
     * [Brackets](http://brackets.io/)
