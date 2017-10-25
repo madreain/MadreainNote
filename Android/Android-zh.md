@@ -246,11 +246,146 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 
 ## 刷新控件
 
-* []()
+### 1.SmartRefreshLayout
 
-* []()
+GitHub 刚开源的，最近热火朝天的，它的优点：
 
-* []()
+1.) 把下拉刷新的效果做的很酷炫，用户体验好
+
+2.) 支持所有的view及其多层嵌套的视图结构
+
+炫酷的效果直接去看github
+[SmartRefreshLayout github地址](https://github.com/scwang90/SmartRefreshLayout)
+
+### 2.TwinklingRefreshLayout
+
+RefreshLayout that support for OverScroll and better than iOS.
+支持下拉刷新和上拉加载的 RefreshLayout,自带越界回弹效果，支持 RecyclerView,AbsListView,ScrollView,WebView
+
+[TwinklingRefreshLayout](https://github.com/lcodecorex/TwinklingRefreshLayout)
+
+### 3.android-Ultra-Pull-To-Refresh
+
+Ultra Pull to Refresh for Android. Support all the views.
+该项目只包含下拉刷新，可以包裹任何控件，如果需要添加上拉加载，[看这里](https://github.com/liaohuqiu/android-cube-app)
+
+[android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)
+
+### 4.SwipeRefreshLayout0
+google官方，项目里面可以直接使用，但是再国内并不受欢迎
+
+### 5.Android-PullToRefresh
+
+PullToRefresh是一套实现非常好的下拉刷新库，它支持：
+ListView
+ExpandableListView
+GridView
+WebView
+ScrollView
+HorizontalScrollView
+ViewPager
+等多种常用的需要刷新的View类型，而且使用起来也十分方便。
+
+缺点：没有加载更多，还需要直接修改
+
+[Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)
+
+### 6.CommonPullToRefresh
+
+在android-Ultra-Pull-To-Refresh的基础上增加了加载更多的支持
+下拉刷新支持大部分view：ListView、ScrollView、WebView等，甚至一个单独的TextView
+加载更多目前支持ListView、RecyclerView、GridView、SwipeRefreshLayout
+支持自定义header以及footer
+增加SwipeRefreshLayout刷新方式，同样支持加载更多
+
+缺点：嵌套时存在着滑动冲突
+
+[CommonPullToRefresh](https://github.com/Chanven/CommonPullToRefresh)
+
+### 7.ActionBar-PullToRefresh
+
+看名字就能知道这是一个在 actionbar 上增加下拉的效果
+
+[ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)
+
+### 8.android-PullRefreshLayout
+
+This component like SwipeRefreshLayout, it is more beautiful than SwipeRefreshLayout.就是比Google的漂亮,完美的虐了Google的亲儿子
+
+[android-PullRefreshLayout](https://github.com/baoyongzhang/android-PullRefreshLayout)
+
+### 9.FlyRefresh
+
+创意漫天飞的下拉刷新，适合看看，估计没有APP刷新要这个飞机效果
+
+[FlyRefresh](https://github.com/race604/FlyRefresh)
+
+### 10.JellyRefreshLayout
+
+A pull-down-to-refresh layout inspired by Lollipop overscrolled effects
+
+material设计深入开发者的杰作
+
+[JellyRefreshLayout](https://github.com/imallan/JellyRefreshLayout)
+
+### 11.SuperSwipeRefreshLayout
+
+A custom SwipeRefreshLayout to support the pull-to-refresh featrue.You can custom your header view and footer view. RecyclerView，ListView，GridView，NestedScrollView，ScrollView are supported.
+
+[SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout)
+
+### 12.Phoenix
+
+Yalantis公司开源出来的，动画效果是杠杠的
+
+[Phoenix](https://github.com/Yalantis/Phoenix)
+
+### 13.CircleRefreshLayout
+
+圆动画效果的下拉刷新
+
+[CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)
+
+### 14.BGARefreshLayout-Android
+
+多种下拉刷新效果、上拉加载更多、可配置自定义头部广告位
+
+[BGARefreshLayout-Android](https://github.com/bingoogolapple/BGARefreshLayout-Android)
+
+### 15.AJWaveRefreshForAndroid
+
+这个作者做了Android与iOS的刷新控件，iOS效果更好一些
+
+[AJWaveRefreshForAndroid](https://github.com/alienjun/AJWaveRefreshForAndroid)
+
+### 16.XRecyclerView
+
+a RecyclerView that implements pullrefresh and loadingmore featrues.you can use it like a standard RecyclerView
+
+[XRecyclerView](https://github.com/jianghejie/XRecyclerView)
+
+### 17.ChromeLikeSwipeLayout
+
+Pull down, and execute more action!效果赞
+
+[ChromeLikeSwipeLayout](https://github.com/ashqal/ChromeLikeSwipeLayout)
+
+### 18.FunGameRefresh
+
+好玩的下拉刷新控件，让我们一起来回味童年,一边下拉刷新，一边打游戏，估计过一会服务器该哭了
+
+[FunGameRefresh](https://github.com/Hitomis/FunGameRefresh)
+
+### 19.BeerSwipeRefresh  WaveSwipeRefreshLayout
+
+啤酒和水滴的下拉刷新，估计是一个爱酒之人
+
+[BeerSwipeRefresh](https://github.com/recruit-lifestyle/BeerSwipeRefresh)
+
+[WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)
+
+
+[github上刷新加载控件](https://github.com/search?l=Java&o=desc&q=refresh&s=stars&type=Repositories&utf8=%E2%9C%93)很多，选择一个适合自己项目的，并且让产品满意的才是王道
 
 
 ## 照片
