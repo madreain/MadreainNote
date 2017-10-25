@@ -7,13 +7,14 @@ Android开发笔记
 ## 目录
 
 -[自定义view速查表](#自定义view速查表)
+
 -[自定义view进阶参考资料](#自定义view进阶参考资料)
 
 
 
 ## 自定义view速查表
 
-*[Canvas常用操作速查表]
+### Canvas常用操作速查表
 
 | 操作分类       | 相关API                                    | 备注                                       |
 | ----------    | ---------------------------------------- | ---------------------------------------- |
@@ -42,7 +43,7 @@ Android开发笔记
 | 画布变换       | translate, scale, rotate, skew           | 依次为 位移、缩放、 旋转、错切                         |
 | Matrix(矩阵) | getMatrix, setMatrix, concat             | 实际画布的位移，缩放等操作的都是图像矩阵Matrix，只不过Matrix比较难以理解和使用，故封装了一些常用的方法。 |
 
-*[Path常用操作速查表]
+### Path常用操作速查表
 
 API21以上，很不爽，得吐槽
 
@@ -66,7 +67,7 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 重置路径        | reset, rewind   | 清除Path中的内容<br/> **reset不保留内部数据结构，但会保留FillType.**<br/> **rewind会保留内部的数据结构，但不保留FillType**
 矩阵操作        | transform       | 矩阵变换
 
-*[Matrix常用操作速查表]
+### Matrix常用操作速查表
 
 | 方法类别     | 相关API                                    | 备注                         |
 | -------- | ---------------------------------------- | -------------------------- |
@@ -80,7 +81,7 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 | 矩阵相关     | invert isAffine(API21) isIdentity        | 求逆矩阵、 是否为仿射矩阵、 是否为单位矩阵 ... |
 
 
-*[贝塞尔曲线常用操作速查表]
+### 贝塞尔曲线常用操作速查表
 
 > **表格中演示动画均来自维基百科**
 
