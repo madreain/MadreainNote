@@ -6,11 +6,17 @@ Android开发笔记
 
 ## 目录
 
+-[架构](#架构)
+
 -[自定义view速查表](#自定义view速查表)
 
 -[自定义view进阶参考资料](#自定义view进阶参考资料)
 
+-[刷新控件](#刷新控件)
 
+## 架构
+
+*[Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
 
 ## 自定义view速查表
 
@@ -223,26 +229,17 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
  13. [sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)
  一个带动画效果的自定义对话框样式
 
- 14. [刷新控件集合   适合好好coding一遍](https://madreain.github.io/2017/07/17/20170717/#more)
- 把这些coding好了，做一个自己专属的刷新控件指日可待
-
-
 ## 网络请求
 
-* []()
+* [Retrofit](https://github.com/square/retrofit)
 
-* []()
-
-* []()
+* [okHttp](https://github.com/square/okhttp)
 
 ## 解析
 
-* []()
+* [gson](https://github.com/google/gson)
 
-* []()
-
-* []()
-
+* [fastjson](https://github.com/alibaba/fastjson)
 
 ## 刷新控件
 
@@ -390,47 +387,65 @@ Pull down, and execute more action!效果赞
 
 ## 照片
 
-* []()
+* [glide](https://github.com/bumptech/glide)
 
-* []()
+* [picasso](https://github.com/square/picasso)
 
-* []()
+* [fresco](https://github.com/facebook/fresco)
+
+* [PhotoView](https://github.com/chrisbanes/PhotoView)
+
+* [Matisse](https://github.com/zhihu/Matisse)
+
+* [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
 
 ## 事件消息
 
-* []()
-
-* []()
-
-* []()
-
+* [EventBus](https://github.com/greenrobot/EventBus)
 
 ## 图表
 
-* []()
+*[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 
-* []()
+*[SmallChart](https://github.com/Idtk/SmallChart)
 
-* []()
-
-
+*[WilliamChart](https://github.com/diogobernardino/WilliamChart)
 
 ## 数据库
 
-* []()
+* [realm](https://github.com/realm/realm-java)
 
-* []()
-
-* []()
-
+* [ormlite-android](https://github.com/j256/ormlite-android)
 
 ## 音视频
 
-* []()
+* [ijkplayer](https://github.com/Bilibili/ijkplayer)
 
-* []()
+* [JiaoZiVideoPlayer](https://github.com/lipangit/JiaoZiVideoPlayer)
 
-* []()
+## 二维码
+
+*[zxing](https://github.com/zxing/zxing)
+
+## 权限
+
+*[PermissionsDispatcher](https://github.com/permissions-dispatcher/PermissionsDispatcher)
+
+*[easypermissions](https://github.com/googlesamples/easypermissions)
+
+*[RxPermissions](https://github.com/tbruyelle/RxPermissions)
+
+*[AndPermission](https://github.com/yanzhenjie/AndPermission)
+
+## 内存
+
+*[leakcanary](https://github.com/square/leakcanary)
 
 ##
+
+*[]()
+
+##
+
+*[]()
