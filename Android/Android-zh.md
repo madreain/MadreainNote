@@ -38,11 +38,11 @@ Android开发笔记
 
 ## 架构
 
-*[Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
+* [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
 
-*[android-architecture](https://github.com/googlesamples/android-architecture/tree/master)
+* [android-architecture](https://github.com/googlesamples/android-architecture/tree/master)
 
-*[iosched](https://github.com/google/iosched)
+* [iosched](https://github.com/google/iosched)
 
 ## 网络请求
 
