@@ -214,7 +214,7 @@
 
 ## Virtual Machine
 
-* [Parallels Desktop](http://www.parallels.com/)
+* [Parallels Desktop](http://www.parallels.com/) Download:[Parallels Desktop](http://pan.baidu.com/s/1nuZtOU1)  Password:dqos
 * [Virtual Box](http://www.virtualbox.org)
 * [VMWare Fusion](http://www.vmware.com/)
 * [Veertu](https://veertu.com)

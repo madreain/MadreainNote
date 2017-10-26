@@ -218,7 +218,7 @@
 
 ## 虚拟机
 
-* [Parallels Desktop](http://www.parallels.com/)
+* [Parallels Desktop](http://www.parallels.com/) 下载地址:[Parallels Desktop](http://pan.baidu.com/s/1nuZtOU1)  密码:dqos
 * [Virtual Box](http://www.virtualbox.org)
 * [VMWare Fusion](http://www.vmware.com/)
 * [Veertu](https://veertu.com)
