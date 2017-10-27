@@ -9,13 +9,23 @@ IOS开发笔记
 - [网络请求](#网络请求)
 - [数据库](#数据库)
 - [刷新控件](#刷新控件)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [模糊效果](#模糊效果)
+- [自动布局](#自动布局)
+- [富文本](#富文本)
+- [图表控件](#图表控件)
+- [表格相关](#表格相关)
+- [UI隐藏与显示](#UI隐藏与显示)
+- [HUD](#HUD)
+- [对话框控件](#对话框控件)
+- [动画](#动画)
+- [图像获取](#图像获取)
+- [缓冲处理](#缓冲处理)
+- [图像浏览与处理](#图像浏览与处理)
+- [照相/音视频](#照相/音视频)
+- [UIWebView](#UIWebView)
+- [输入法](#输入法)
+- [日历类](#日历类)
+- [二维码](#二维码)
 
 ## 网络请求
 
@@ -176,7 +186,7 @@ IOS开发笔记
 * [LTNavigationBar](https://github.com/ltebean/LTNavigationBar)
 * [BLKFlexibleHeightBar](https://github.com/bryankeller/BLKFlexibleHeightBar)
 
-## HUD与Toast
+## HUD
 
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 * [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD)
@@ -268,7 +278,7 @@ IOS开发笔记
 * [MarkingMenu](https://github.com/FlexMonkey/MarkingMenu)
 * [SXPhotoShow](https://github.com/dsxNiubility/SXPhotoShow)
 
-## 照相音视频
+## 照相/音视频
 
 * [SCRecorder](https://github.com/rFlex/SCRecorder)
 * [VideoPushDemo](https://github.com/pingguo-zangqilong/VideoPushDemo)
