@@ -105,7 +105,7 @@ IOS development notes
 * [UIView-AutoLayout](https://github.com/smileyborg/UIView-AutoLayout)
 * [Auto-Layout-Showcase](https://github.com/philcn/Auto-Layout-Showcase)
 
-## 富文本
+## The rich text
 
 * [DDRichText](https://github.com/daiweilai/DDRichText)
 * [WordPress-Editor-iOS](https://github.com/wordpress-mobile/WordPress-Editor-iOS)
@@ -134,7 +134,7 @@ IOS development notes
 * [AttributedLabel](https://github.com/KyoheiG3/AttributedLabel)
 * [FFLabel](https://github.com/liufan321/FFLabel)
 
-## 图表控件
+## Chart
 
 * [PNChart](https://github.com/kevinzhow/PNChart)
 * [swift-linechart](https://github.com/zemirco/swift-linechart)
@@ -147,7 +147,7 @@ IOS development notes
 * [LxThroughPointsBezier-Swift](https://github.com/DeveloperLx/LxThroughPointsBezier-Swift)
 * [LxThroughPointsBezier](https://github.com/DeveloperLx/LxThroughPointsBezier
 
-## 表格相关
+## Form
 
 * [3DCharts](https://github.com/vnagar/3DCharts)
 * [SWTableViewCell](https://github.com/onevcat/SWTableViewCell)
@@ -179,7 +179,7 @@ IOS development notes
 * [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension)
 * [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView)
 
-## UI隐藏与显示
+## UI
 
 * [SlideTapBar](http://d.cocoachina.com/code/detail/286102)
 * [FoldingTabBar.iOS](https://github.com/Yalantis/FoldingTabBar.iOS)
@@ -194,7 +194,7 @@ IOS development notes
 * [MMProgressHUD](https://github.com/mutualmobile/MMProgressHUD)
 * [WSProgressHUD](https://github.com/devSC/WSProgressHUD)
 
-## 对话框控件
+## Dialog control
 
 * [WCAlertView](https://github.com/m1entus/WCAlertView)
 * [IOS7AlertView](https://github.com/wimagguc/ios-custom-alertview)
@@ -212,7 +212,7 @@ IOS development notes
 * [MJAlertView](https://github.com/mayuur/MJAlertView)
 * [SwiftyDrop](https://github.com/morizotter/SwiftyDrop)
 
-## 动画
+## Animation
 
 * [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation)
 * [SloppySwiper](https://github.com/fastred/SloppySwiper)
@@ -236,7 +236,7 @@ IOS development notes
 * [SwiftPages](https://github.com/GabrielAlva/SwiftPages)
 * [MMDrawerController](https://github.com/mutualmobile/MMDrawerController)
 
-## 图像获取
+## Image acquisition
 
 * [SDWebImage](https://github.com/rs/SDWebImage)
 * [Kingfisher](https://github.com/onevcat/Kingfisher)
@@ -244,7 +244,7 @@ IOS development notes
 * [FastImageCache](https://github.com/path/FastImageCache)
 * [EGOCache](https://github.com/enormego/EGOCache)
 
-## 缓冲处理
+## Buffer processing
 
 * [YTKKeyValueStore](https://github.com/yuantiku/YTKKeyValueStore)
 * [TMCache](https://github.com/tumblr/TMCache)
@@ -252,7 +252,7 @@ IOS development notes
 * [sskeychain](https://github.com/soffes/sskeychain)
 * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
 
-## 图像浏览与处理
+## Image browsing and processing
 
 * [FLAnimatedImage](https://github.com/liric28/FLAnimatedImage)
 * [CLImageEditor](https://github.com/yackle/CLImageEditor)
@@ -278,7 +278,7 @@ IOS development notes
 * [MarkingMenu](https://github.com/FlexMonkey/MarkingMenu)
 * [SXPhotoShow](https://github.com/dsxNiubility/SXPhotoShow)
 
-## 照相/音视频
+## Photo/video
 
 * [SCRecorder](https://github.com/rFlex/SCRecorder)
 * [VideoPushDemo](https://github.com/pingguo-zangqilong/VideoPushDemo)
@@ -313,17 +313,17 @@ IOS development notes
 * [SCSafariViewController](https://github.com/stringcode86/SCSafariViewController)
 * [RxWebViewController](https://github.com/Roxasora/RxWebViewController)
 
-## 输入法
+## The input method
 
 * [squirrel](https://github.com/rime/squirrel)
 
-## 日历类
+## Calendar
 
 * [CVCalendar](https://github.com/Mozharovsky/CVCalendar)
 * [PDTSimpleCalendar](https://github.com/jivesoftware/PDTSimpleCalendar)
 * [MDCalendarSelector](https://github.com/deirinberg/MDCalendarSelector)
 
-## 二维码
+## Qr code
 
 * [libqrencode](https://github.com/fukuchi/libqrencode)
 * [QRWeiXinDemo](https://github.com/lcddhr/QRWeiXinDemo)
