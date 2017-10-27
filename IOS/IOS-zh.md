@@ -6,6 +6,7 @@ IOS开发笔记
 
 ## 目录
 
+- [网络请求](#网络请求)
 - [](#)
 - [](#)
 - [](#)
@@ -15,7 +16,23 @@ IOS开发笔记
 - [](#)
 - [](#)
 - [](#)
-- [](#)
+
+## 网络请求
+
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+* [Alamofire](https://github.com/Alamofire/Alamofire)
+* [YTKNetwork](https://github.com/yuantiku/YTKNetwork)
+* [LxFTPRequest](https://github.com/DeveloperLx/LxFTPRequest)
+* [WTRequestCenter](https://github.com/swtlovewtt/WTRequestCenter)
+* [MMWormhole](https://github.com/mutualmobile/MMWormhole)
+* [socket.io-client-swift](https://github.com/socketio/socket.io-client-swift)
+* [Transporter](https://github.com/nghialv/Transporter)
+* [STNetTaskQueue](https://github.com/kevin0571/STNetTaskQueue)
+* [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)
+* [GCDAsyncSocket](https://github.com/eugenehp/GCDAsyncSocket)
+* [Just](https://github.com/JustHTTP/Just)
+* [Future](https://github.com/nghialv/Future
+* [Pitaya](https://github.com/johnlui/Pitaya)
 
 ## 刷新控件
 
@@ -194,23 +211,6 @@ IOS开发笔记
 * [PKRevealController](https://github.com/pkluz/PKRevealController)
 * [SwiftPages](https://github.com/GabrielAlva/SwiftPages)
 * [MMDrawerController](https://github.com/mutualmobile/MMDrawerController)
-
-## 网络请求
-
-* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
-* [Alamofire](https://github.com/Alamofire/Alamofire)
-* [YTKNetwork](https://github.com/yuantiku/YTKNetwork)
-* [LxFTPRequest](https://github.com/DeveloperLx/LxFTPRequest)
-* [WTRequestCenter](https://github.com/swtlovewtt/WTRequestCenter)
-* [MMWormhole](https://github.com/mutualmobile/MMWormhole)
-* [socket.io-client-swift](https://github.com/socketio/socket.io-client-swift)
-* [Transporter](https://github.com/nghialv/Transporter)
-* [STNetTaskQueue](https://github.com/kevin0571/STNetTaskQueue)
-* [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)
-* [GCDAsyncSocket](https://github.com/eugenehp/GCDAsyncSocket)
-* [Just](https://github.com/JustHTTP/Just)
-* [Future](https://github.com/nghialv/Future
-* [Pitaya](https://github.com/johnlui/Pitaya)
 
 ## 图像获取
 
