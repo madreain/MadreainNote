@@ -14,6 +14,8 @@ Android development notes
 
 -[Database](#database)
 
+-[Database Util](#database-util)
+
 -[Code Template](#code-template)
 
 -[Asynchronous](#asynchronous)
@@ -37,6 +39,8 @@ Android development notes
 -[Memory](#memory)
 
 -[Animation](#animation)
+
+-[Dialog](#dialog)
 
 -[utils](#Utils)
 
@@ -71,6 +75,10 @@ Android development notes
 * [ormlite-android](https://github.com/j256/ormlite-android)
 
 * [greenDAO](https://github.com/greenrobot/greenDAO)
+
+## Database Util
+
+* [stetho](http://facebook.github.io/stetho/)
 
 ## Code Template
 
@@ -286,6 +294,10 @@ Pull down, and execute more action!效果赞
 * [lottie-android](https://github.com/airbnb/lottie-android)
 
 * [SVGAPlayer-Android](https://github.com/yyued/SVGAPlayer-Android)
+
+## Dialog
+
+* [material-dialogs](https://github.com/afollestad/material-dialogs)
 
 ## Utils
 

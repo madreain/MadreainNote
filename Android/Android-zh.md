@@ -14,6 +14,8 @@ Android开发笔记
 
 -[数据库](#数据库)
 
+-[数据库工具](#数据库工具)
+
 -[代码模版](#代码模版)
 
 -[异步](#异步)
@@ -36,9 +38,11 @@ Android开发笔记
 
 -[内存](#内存)
 
--[工具类](#工具类)
-
 -[动画](#动画)
+
+-[Dialog](#dialog)
+
+-[工具类](#工具类)
 
 -[自定义view速查表](#自定义view速查表)
 
@@ -71,6 +75,10 @@ Android开发笔记
 * [ormlite-android](https://github.com/j256/ormlite-android)
 
 * [greenDAO](https://github.com/greenrobot/greenDAO)
+
+## 数据库工具
+
+* [stetho](http://facebook.github.io/stetho/)
 
 ## 代码模版
 
@@ -286,6 +294,10 @@ Pull down, and execute more action!效果赞
 * [lottie-android](https://github.com/airbnb/lottie-android)
 
 * [SVGAPlayer-Android](https://github.com/yyued/SVGAPlayer-Android)
+
+## Dialog
+
+* [material-dialogs](https://github.com/afollestad/material-dialogs)
 
 ## 工具类
 
