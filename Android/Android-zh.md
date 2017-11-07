@@ -297,6 +297,8 @@ Pull down, and execute more action!效果赞
 
 * [SVGAPlayer-Android](https://github.com/yyued/SVGAPlayer-Android)
 
+* [Material-Animations](https://github.com/lgvalle/Material-Animations)
+
 ## Dialog
 
 * [material-dialogs](https://github.com/afollestad/material-dialogs)
