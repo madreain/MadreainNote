@@ -20,6 +20,8 @@ Android development notes
 
 -[Asynchronous](#asynchronous)
 
+-[Indicator](#indicator)
+
 -[Refresh the controls](#refresh-the-controls)
 
 -[Photo](#photo)
@@ -43,6 +45,8 @@ Android development notes
 -[Dialog](#dialog)
 
 -[utils](#Utils)
+
+-[Hot update](#hot-update)
 
 -[Custom view look-up table](#custom-view-look-up-table)
 
@@ -89,6 +93,10 @@ Android development notes
 ## Asynchronous
 
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+
+## Indicator
+
+* [ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
 
 ## Refresh the controls
 
@@ -306,6 +314,10 @@ Pull down, and execute more action!效果赞
 ## Utils
 
 * [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
+
+## Hot update
+
+* [tinker](https://github.com/Tencent/tinker)
 
 ## Custom view look-up table
 

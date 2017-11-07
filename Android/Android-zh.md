@@ -20,6 +20,8 @@ Android开发笔记
 
 -[异步](#异步)
 
+-[指示器](#指示器)
+
 -[刷新控件](#刷新控件)
 
 -[照片](#照片)
@@ -43,6 +45,8 @@ Android开发笔记
 -[Dialog](#dialog)
 
 -[工具类](#工具类)
+
+-[热更](#热更)
 
 -[自定义view速查表](#自定义view速查表)
 
@@ -89,6 +93,10 @@ Android开发笔记
 ## 异步
 
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+
+## 指示器
+
+* [ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
 
 ## 刷新控件
 
@@ -306,6 +314,10 @@ Pull down, and execute more action!效果赞
 ## 工具类
 
 * [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
+
+## 热更
+
+* [tinker](https://github.com/Tencent/tinker)
 
 ## 自定义view速查表
 
