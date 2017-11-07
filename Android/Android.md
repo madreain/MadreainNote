@@ -32,6 +32,8 @@ Android development notes
 
 -[Memory](#memory)
 
+-[Animation](#animation)
+
 -[utils](#Utils)
 
 -[Custom view look-up table](#custom-view-look-up-table)
@@ -266,6 +268,12 @@ Pull down, and execute more action!效果赞
 ## Memory
 
 * [leakcanary](https://github.com/square/leakcanary)
+
+## Animation
+
+* [lottie-android](https://github.com/airbnb/lottie-android)
+
+* [SVGAPlayer-Android](https://github.com/yyued/SVGAPlayer-Android)
 
 ## Utils
 

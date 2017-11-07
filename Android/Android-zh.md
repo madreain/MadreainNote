@@ -34,6 +34,8 @@ Android开发笔记
 
 -[工具类](#工具类)
 
+-[动画](#动画)
+
 -[自定义view速查表](#自定义view速查表)
 
 -[自定义view进阶参考资料](#自定义view进阶参考资料)
@@ -266,6 +268,12 @@ Pull down, and execute more action!效果赞
 ## 内存
 
 * [leakcanary](https://github.com/square/leakcanary)
+
+## 动画
+
+* [lottie-android](https://github.com/airbnb/lottie-android)
+
+* [SVGAPlayer-Android](https://github.com/yyued/SVGAPlayer-Android)
 
 ## 工具类
 
