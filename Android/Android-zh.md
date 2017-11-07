@@ -14,6 +14,8 @@ Android开发笔记
 
 -[数据库](#数据库)
 
+-[代码模版](#代码模版)
+
 -[刷新控件](#刷新控件)
 
 -[照片](#照片)
@@ -67,6 +69,10 @@ Android开发笔记
 * [ormlite-android](https://github.com/j256/ormlite-android)
 
 * [greenDAO](https://github.com/greenrobot/greenDAO)
+
+## 代码模版
+
+* [butterknife](https://github.com/JakeWharton/butterknife)
 
 ## 刷新控件
 

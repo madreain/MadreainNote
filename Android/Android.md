@@ -14,6 +14,8 @@ Android development notes
 
 -[Database](#database)
 
+-[Code Template](#code-template)
+
 -[Refresh the controls](#refresh-the-controls)
 
 -[Photo](#photo)
@@ -67,6 +69,10 @@ Android development notes
 * [ormlite-android](https://github.com/j256/ormlite-android)
 
 * [greenDAO](https://github.com/greenrobot/greenDAO)
+
+## Code Template
+
+* [butterknife](https://github.com/JakeWharton/butterknife)
 
 ## Refresh the controls
 
