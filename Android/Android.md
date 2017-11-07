@@ -16,6 +16,8 @@ Android development notes
 
 -[Code Template](#code-template)
 
+-[Asynchronous](#asynchronous)
+
 -[Refresh the controls](#refresh-the-controls)
 
 -[Photo](#photo)
@@ -73,6 +75,10 @@ Android development notes
 ## Code Template
 
 * [butterknife](https://github.com/JakeWharton/butterknife)
+
+## Asynchronous
+
+* [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
 ## Refresh the controls
 

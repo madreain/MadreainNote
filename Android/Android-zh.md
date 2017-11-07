@@ -16,6 +16,8 @@ Android开发笔记
 
 -[代码模版](#代码模版)
 
+-[异步](#异步)
+
 -[刷新控件](#刷新控件)
 
 -[照片](#照片)
@@ -73,6 +75,10 @@ Android开发笔记
 ## 代码模版
 
 * [butterknife](https://github.com/JakeWharton/butterknife)
+
+## 异步
+
+* [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
 ## 刷新控件
 
