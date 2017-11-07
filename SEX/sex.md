@@ -2,7 +2,7 @@
 
 🔞The gates of the new world
 
-[English](SEX.md) | [中文](SEX-zh.md)
+[English](sex.md) | [中文](sex-zh.md)
 
 ## Contents
 

@@ -22,4 +22,4 @@
 
 ## SEX
 
-[SEX English](SEX/SEX.md) | [SEX 中文](SEX/SEX-zh.md)
+[SEX English](SEX/sex.md) | [SEX 中文](SEX/sex-zh.md)
