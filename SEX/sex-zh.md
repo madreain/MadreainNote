@@ -2,7 +2,7 @@
 
 🔞新世界的大门
 
-[English](SEX.md) | [中文](SEX-zh.md)
+[English](sex.md) | [中文](sex-zh.md)
 
 ## 目录
 
