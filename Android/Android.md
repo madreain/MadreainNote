@@ -84,6 +84,8 @@ Android development notes
 
 * [butterknife](https://github.com/JakeWharton/butterknife)
 
+* [androidannotations](https://github.com/androidannotations/androidannotations)
+
 ## Asynchronous
 
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)

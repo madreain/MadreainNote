@@ -84,6 +84,8 @@ Android开发笔记
 
 * [butterknife](https://github.com/JakeWharton/butterknife)
 
+* [androidannotations](https://github.com/androidannotations/androidannotations)
+
 ## 异步
 
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
