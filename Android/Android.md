@@ -326,6 +326,10 @@ Pull down, and execute more action!效果赞
 
 * [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
+* [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)
+
+* [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
+
 ## Audio and video
 
 * [ijkplayer](https://github.com/Bilibili/ijkplayer)
