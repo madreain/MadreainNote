@@ -52,6 +52,8 @@ Android development notes
 
 -[Custom view advanced reference information](#custom-view-advanced-reference-information)
 
+-[Auxiliary tool](#auxiliary-tool)
+
 ## Framework
 
 * [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
@@ -529,5 +531,21 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 
  13. [sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)
  一个带动画效果的自定义对话框样式
+
+ ## Auxiliary tool
+
+* [json在线解析](http://www.json.cn/)
+
+* [颜色转换工具](http://tool.css-js.com/rgba.html)
+
+* [颜色转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/)
+
+* [Genymotion 虚拟机](https://www.genymotion.com/#!/)
+
+* [icon在线制作工具](http://romannurik.github.io/AndroidAssetStudio/index.html)
+
+* [Android 代码搜索工具](https://www.codota.com/)
+
+* [charles截取请求](https://www.charlesproxy.com/)
 
 **[⬆ Top](#contents)**
