@@ -36,6 +36,8 @@ Android开发笔记
 
 -[UI框架](#UI框架)
 
+-[视图框架](#视图框架)
+
 -[音视频](#音视频)
 
 -[二维码](#二维码)
@@ -47,6 +49,8 @@ Android开发笔记
 -[Dialog](#dialog)
 
 -[工具类](#工具类)
+
+-[日志框架](#日志框架)
 
 -[热更](#热更)
 
@@ -295,6 +299,12 @@ Pull down, and execute more action!效果赞
 
 * [RapidView](https://github.com/Tencent/RapidView)
 
+## 视图框架
+
+* [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
+
+* [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)
+
 ## 音视频
 
 * [ijkplayer](https://github.com/Bilibili/ijkplayer)
@@ -324,6 +334,10 @@ Pull down, and execute more action!效果赞
 ## 工具类
 
 * [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
+
+## 日志框架
+
+* [logger](https://github.com/orhanobut/logger)
 
 ## 热更
 

@@ -46,7 +46,9 @@ Android development notes
 
 -[Dialog](#dialog)
 
--[utils](#Utils)
+-[Utils](#utils)
+
+-[Logging framework](#logging-framework)
 
 -[Hot update](#hot-update)
 
@@ -295,6 +297,12 @@ Pull down, and execute more action!效果赞
 
 * [RapidView](https://github.com/Tencent/RapidView)
 
+## View Framework
+
+* [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer)
+
+* [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)
+
 ## Audio and video
 
 * [ijkplayer](https://github.com/Bilibili/ijkplayer)
@@ -324,6 +332,10 @@ Pull down, and execute more action!效果赞
 ## Utils
 
 * [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
+
+## Logging framework
+
+* [logger](https://github.com/orhanobut/logger)
 
 ## Hot update
 
