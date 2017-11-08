@@ -60,6 +60,8 @@ Android开发笔记
 
 -[辅助工具](#辅助工具)
 
+-[反编译工具](#反编译工具)
+
 -[Android进阶途径](#Android进阶途径)
 
 ## 架构
@@ -324,7 +326,7 @@ Pull down, and execute more action!效果赞
 
 * [AppIntro](https://github.com/apl-devs/AppIntro)
 
-* []()
+* [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
 * []()
 
@@ -596,6 +598,10 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 * [Android 代码搜索工具](https://www.codota.com/)
 
 * [charles截取请求](https://www.charlesproxy.com/)
+
+## 反编译工具
+
+* [Apktool](https://ibotpeaches.github.io/Apktool/)
 
 ## Android进阶途径
 

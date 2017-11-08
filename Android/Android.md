@@ -58,6 +58,8 @@ Android development notes
 
 -[Auxiliary tool](#auxiliary-tool)
 
+-[Decompiling tool](#decompiling-tool)
+
 -[Android advanced approach](#android-advanced-approach)
 
 ## Framework
@@ -321,6 +323,8 @@ Pull down, and execute more action!效果赞
 * [AndroidSlidingUpPanel](https://github.com/umano/AndroidSlidingUpPanel)
 
 * [AppIntro](https://github.com/apl-devs/AppIntro)
+
+* [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
 ## Audio and video
 
@@ -590,6 +594,10 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 * [Android 代码搜索工具](https://www.codota.com/)
 
 * [charles截取请求](https://www.charlesproxy.com/)
+
+## Decompiling tool
+
+* [Apktool](https://ibotpeaches.github.io/Apktool/)
 
 ## Android advanced approach
 
