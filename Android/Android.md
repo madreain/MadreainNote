@@ -303,6 +303,14 @@ Pull down, and execute more action!效果赞
 
 * [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)
 
+* [BottomBar](https://github.com/roughike/BottomBar)
+
+* [Calligraphy](https://github.com/chrisjenx/Calligraphy)
+
+* [AndroidSlidingUpPanel](https://github.com/umano/AndroidSlidingUpPanel)
+
+* [AppIntro](https://github.com/apl-devs/AppIntro)
+
 ## Audio and video
 
 * [ijkplayer](https://github.com/Bilibili/ijkplayer)
@@ -324,6 +332,8 @@ Pull down, and execute more action!效果赞
 * [SVGAPlayer-Android](https://github.com/yyued/SVGAPlayer-Android)
 
 * [Material-Animations](https://github.com/lgvalle/Material-Animations)
+
+* [recyclerview-animators](https://github.com/wasabeef/recyclerview-animators)
 
 ## Dialog
 
