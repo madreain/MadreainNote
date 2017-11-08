@@ -22,6 +22,8 @@ Android development notes
 
 -[Indicator](#indicator)
 
+-[Adaptor](#adaptor)
+
 -[Refresh the controls](#refresh-the-controls)
 
 -[Photo](#photo)
@@ -101,6 +103,10 @@ Android development notes
 ## Indicator
 
 * [ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
+
+## Adaptor
+
+* [BaseRecyclerViewAdapterHelper](http://www.recyclerview.org/)
 
 ## Refresh the controls
 

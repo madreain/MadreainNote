@@ -22,6 +22,8 @@ Android开发笔记
 
 -[指示器](#指示器)
 
+-[适配器](#适配器)
+
 -[刷新控件](#刷新控件)
 
 -[照片](#照片)
@@ -101,6 +103,10 @@ Android开发笔记
 ## 指示器
 
 * [ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
+
+## 适配器
+
+* [BaseRecyclerViewAdapterHelper](http://www.recyclerview.org/)
 
 ## 刷新控件
 
