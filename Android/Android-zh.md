@@ -54,6 +54,8 @@ Android开发笔记
 
 -[辅助工具](#辅助工具)
 
+-[Android进阶途径](#Android进阶途径)
+
 ## 架构
 
 * [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
@@ -547,5 +549,66 @@ rXxx方法        | rMoveTo, rLineTo, rQuadTo, rCubicTo | **不带r的方法是�
 * [Android 代码搜索工具](https://www.codota.com/)
 
 * [charles截取请求](https://www.charlesproxy.com/)
+
+## Android进阶途径
+
+* Android订阅
+
+  *[干货集中营](http://gank.io/)
+
+  *[Android开发技术周报](http://www.androidweekly.cn/)
+
+  *[Android 科学院](https://zhuanlan.zhihu.com/andlib)
+
+  *[移动开发每周阅读清单](http://mobilefrontier.github.io/)
+
+  *[Android Blog 周刊 ](http://androidblog.cn/)
+
+  *[Android 开发经验谈](http://www.jianshu.com/c/5139d555c94d)
+
+  *[Android Weekly 中文翻译版](https://zhuanlan.zhihu.com/android-weekly)
+
+  *[DiyCode](https://www.diycode.cc/topics)
+
+  *[极客导航](http://www.jikedaohang.com/)
+
+* Android体系化学习网站／博客
+
+  *[极客学院](http://www.jikexueyuan.com/path/android)
+
+  *[Android 知识梳理](https://juejin.im/post/587dbaf9570c3522010e400e)
+
+  *[Android Studio中文社区](http://www.android-studio.org/index.php)
+
+  *[Android技术体系](http://lib.csdn.net/aqi00/347554/chart/Android%E6%8A%80%E6%9C%AF%E4%BD%93%E7%B3%BB)
+
+  *[Android开源库集锦](http://lib.csdn.net/zhhy88/286182/chart/Android%E5%BC%80%E6%BA%90%E5%BA%93%E9%9B%86%E9%94%A6)
+
+* Android问题解决网站
+
+  *[Stack Overflow](https://stackoverflow.com/)
+
+  *[GitHub](https://github.com/)
+
+  *[CSDN](http://www.csdn.net/)
+
+  *[掘金](https://juejin.im/timeline)
+
+  *[简书](http://www.jianshu.com/)
+
+  *[Google Groups: Android Developers](https://groups.google.com/forum/#!forum/android-developers)（需翻墙）
+
+*  Android开源分享网站
+
+  *[GitHub](https://github.com/)
+
+  *[开源中国](http://www.oschina.net/)
+
+  *[安卓巴士](http://www.apkbus.com/)
+
+  *[DevStore](http://www.devstore.cn/)
+
+  *[eoeandroid](http://www.eoeandroid.com/forum.php)
+
 
 **[⬆ 返回顶部](#目录)**
