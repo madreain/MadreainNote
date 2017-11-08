@@ -98,11 +98,15 @@ Android开发笔记
 
 * [butterknife](https://github.com/JakeWharton/butterknife)
 
+* [dagger](https://github.com/google/dagger)
+
 * [androidannotations](https://github.com/androidannotations/androidannotations)
 
 ## 异步
 
 * [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+
+* [RxBinding](https://github.com/JakeWharton/RxBinding)
 
 ## 指示器
 
@@ -270,6 +274,9 @@ Pull down, and execute more action!效果赞
 
 * [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
+* [uCrop](https://github.com/Yalantis/uCrop)
+
+* [Luban](https://github.com/Curzibn/Luban)
 
 ## 消息传递
 
@@ -298,6 +305,10 @@ Pull down, and execute more action!效果赞
 * [vlayout](https://github.com/alibaba/vlayout)
 
 * [RapidView](https://github.com/Tencent/RapidView)
+
+* [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)
+
+* [EffectiveAndroidUI](https://github.com/pedrovgs/EffectiveAndroidUI)
 
 ## 视图框架
 
@@ -340,6 +351,8 @@ Pull down, and execute more action!效果赞
 * [Material-Animations](https://github.com/lgvalle/Material-Animations)
 
 * [recyclerview-animators](https://github.com/wasabeef/recyclerview-animators)
+
+* [ListViewAnimations](https://github.com/nhaarman/ListViewAnimations)
 
 ## Dialog
 
