@@ -16,10 +16,7 @@
 
 [Web English](Web/Web.md) | [Web 中文](Web/Web-zh.md)
 
-## IOS
+## iOS
 
-[IOS English](IOS/IOS.md) | [IOS 中文](IOS/IOS-zh.md)
+[iOS English](iOS/iOS.md) | [iOS 中文](iOS/iOS-zh.md)
 
-## SEX
-
-[SEX English](SEX/sex.md) | [SEX 中文](SEX/sex-zh.md)
