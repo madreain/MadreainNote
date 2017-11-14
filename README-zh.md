@@ -19,7 +19,3 @@
 ## IOS
 
 [IOS English](IOS/IOS.md) | [IOS 中文](IOS/IOS-zh.md)
-
-## SEX
-
-[SEX English](SEX/sex.md) | [SEX 中文](SEX/sex-zh.md)
