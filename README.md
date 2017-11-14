@@ -16,9 +16,9 @@ Keep track of your work, including Mac software, Android development, etc
 
 [Web English](Web/Web.md) | [Web 中文](Web/Web-zh.md)
 
-## IOS
+## iOS
 
-[IOS English](IOS/IOS.md) | [IOS 中文](IOS/IOS-zh.md)
+[iOS English](iOS/iOS.md) | [iOS 中文](iOS/iOS-zh.md)
 
 ## SEX
 
