@@ -41,7 +41,7 @@ IOS development notes
 * [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)
 * [GCDAsyncSocket](https://github.com/eugenehp/GCDAsyncSocket)
 * [Just](https://github.com/JustHTTP/Just)
-* [Future](https://github.com/nghialv/Future
+* [Future](https://github.com/nghialv/Future)
 * [Pitaya](https://github.com/johnlui/Pitaya)
 
 ## Database

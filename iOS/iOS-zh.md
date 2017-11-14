@@ -145,7 +145,7 @@ IOS开发笔记
 * [awesome-ios-chart](https://github.com/sxyx2008/awesome-ios-chart)
 * [KlineInSwift](https://github.com/mengmanzbh/KlineInSwift)
 * [LxThroughPointsBezier-Swift](https://github.com/DeveloperLx/LxThroughPointsBezier-Swift)
-* [LxThroughPointsBezier](https://github.com/DeveloperLx/LxThroughPointsBezier
+* [LxThroughPointsBezier](https://github.com/DeveloperLx/LxThroughPointsBezier)
 
 ## 表格相关
 
