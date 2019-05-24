@@ -12,6 +12,8 @@
 
 -[Fragment 通信](#Fragment通信)
 
+-[源码分析](#源码分析)
+
 ## 生命周期
 
 Fragment 和 activity 一样，也是有四种状态
@@ -70,6 +72,17 @@ Fragment 添加到 Activity 中有两种方式一种是静态添加，一种是�
 [Fragment 全解析系列（一）：那些年踩过的坑](http://www.jianshu.com/p/d9143a92ad94)
 
 [Fragment 全解析系列（二）：正确的使用姿势](http://www.jianshu.com/p/fd71d65f0ec6)
+
+
+FragmentTransaction有一些基本方法，下面给出调用这些方法时，Fragment生命周期的变化：
+
+add(): onAttach()->…->onResume()。
+remove(): onPause()->…->onDetach()。
+replace(): 相当于旧Fragment调用remove()，新Fragment调用add()。
+show(): 不调用任何生命周期方法，调用该方法的前提是要显示的 Fragment已经被添加到容器，只是纯粹把Fragment UI的setVisibility为true。
+hide(): 不调用任何生命周期方法，调用该方法的前提是要显示的Fragment已经被添加到容器，只是纯粹把Fragment UI的setVisibility为false。
+detach(): onPause()->onStop()->onDestroyView()。UI从布局中移除，但是仍然被FragmentManager管理。
+attach(): onCreateView()->onStart()->onResume()。
 
 ## Fragment 通信
 
@@ -167,8 +180,12 @@ afragment.setObject("object")
 
 3).广播方式同上
 
-3.Fragment 之间通信
+3.Fragment之间通信
 
 1).通过Activity作为中介,参考Fragment->Activity传递参数,然后ctivity->Fragment传递参数
 
 2).广播方式同上
+
+## 源码分析
+
+[Fragment源码解析](/AndroidLearning/3/30027-Fragment源码解析.md)
