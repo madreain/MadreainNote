@@ -45,3 +45,4 @@ coverage/
 # Bundler files
 /.bundle
 
+.history
