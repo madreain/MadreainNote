@@ -138,12 +138,7 @@ wifi状态 | android.permission.ACCESS_WIFI_STATE |  获取当前WiFi接入的�
 **android:name**
 以描述符字符串形式指定应用使用的单一硬件或软件功能。
 
-硬件功能属性值
-
-
-软件功能属性值
-
-
+[硬件功能和软件功能属性值参考](https://developer.android.google.cn/guide/topics/manifest/uses-feature-element.html)
 
 **android:required**
 表示应用是否需要 android:name 中所指定功能的布尔值。
@@ -162,6 +157,8 @@ wifi状态 | android.permission.ACCESS_WIFI_STATE |  获取当前WiFi接入的�
 能够使用几种 OpenGL ES 版本中任一版本的应用只应指定它需要的数值最低的 OpenGL ES 版本。 （它可以在运行时检查是否有更高版本的 OpenGL ES 可用）。
 
 ###### application
+
+
 
 ```
 <application android:allowTaskReparenting=["true" | "false"]
