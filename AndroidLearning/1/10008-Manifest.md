@@ -266,12 +266,11 @@ Android 系统是否可以实例化应用的组件。如果为 true 可以，如
 **android:manageSpaceActivity**
 一个 Activity 子类的全限定名称，这个 Activity 可以被系统启动让用户管理此应用占有的存储空间。这个 Activity 也应该用<activity/>元素声明。
 
-
 非常用属性可查看[application 属性解释](https://developer.android.google.cn/guide/topics/manifest/application-element.html)
 
 ###### activity
 
-
+应用组件的申明，申明后系统才可以访问
 
 ```
 <activity android:allowEmbedded=["true" | "false"]
@@ -327,9 +326,49 @@ Android 系统是否可以实例化应用的组件。如果为 true 可以，如
 
 ```
 
+**android:name**
+组建名，Activity 源文件所在的相对路径
 
+**android:screenOrientation**
+Activity 在屏幕当中显示的方向
 
-[activity 属性解释](https://developer.android.google.cn/guide/topics/manifest/activity-element.html)
+**android:configChanges**
+Activity 捕捉设备状态变化。当所指定属性(Configuration Changes)发生改变时，回调 onConfigurationChanged()函数。1. 设备旋转(orientation),2. 键盘隐藏(keyboardHidden), 3. 屏幕尺寸(screenSize)
+
+**android:exported**
+表示该组件是否能够被其它应用程序组件调用或者交互。该属性默认值依赖于它所包含得过滤器(intent-filter)。如果没有 intent-filter，则表明该组件只能通过显示 Intent 调用，所以默认值为 false。如果含有 intent-filter,则表明该组件能通过隐式 Intent 调用，所以默认值为 true。
+
+**android:launchMode**
+activity 启动模式。四种：Standard,SingleTop,SingleTask,SingleInstance
+
+**android:taskAffinity**
+Activity 所吸附的任务栈，该属性一般在 lauchMode 为 singleTask 模式才生效。默认 taskAffinity 于根 Activity 相同，即应用的包名。
+
+**android:windowSoftInputMode**
+键盘弹出后，界面调整模式 1. 当获取焦点时是否弹出键盘 2. 是否减少 Activity 主窗口大小以腾出空间给软键盘
+
+**android:allowTaskReparenting**
+当某个拥有相同 affinity 任务栈即将返回前台时，当前 Activity 是否能从启动它得任务栈中转移到与它相同 Affinity 相同任务栈中去。默认值，false，只能停留在启动它得任务栈。 利用该值的特性，可以强行让一个不再显示的 Activity 转移到另外的任务栈中。典型的应用，就是让一个程序的 Activity 转移到另外的应用程序中。
+
+**android:alwaysRetainTaskState**
+系统是否一直维持任务栈的状态。该属性只对任务栈根 Activity 有效，默认值 false。通常，用户从 launch 界面重新打开应用的时候，系统会清空任务栈中根 Activity 以上所有 Activity，比如说，用户停留在主界面很长时间没有操作了。当将该值设置为 true 的时候，总是返回任务的最后状态，比如说，浏览器应用打开了多个页面，用户不期望下次打开浏览器的时候，之前的页面全部清空了。
+
+**android:clearTaskOnLaunch**
+每次从 launch 启动应用时，是否清楚根 Activity 以上所有的 Activity，默认值 false
+
+**android:enabled**
+该组件是否能够被实例化。默认 true
+
+**android:excludeFromRecents**
+该 Activity 是否排除在用户最近任务列表。默认值 false。
+
+**android:finishOnTaskLaunch**
+当从 launch 再次启动任务时，是否 finish 该实例，默认值 false。
+
+**android:multiprocess**
+是否可以把 Activity 新实例放入到启动它的组件所在的进程中。
+
+其他属性可查看[activity 属性解释](https://developer.android.google.cn/guide/topics/manifest/activity-element.html)
 
 ###### meta-data
 
@@ -339,7 +378,15 @@ Android 系统是否可以实例化应用的组件。如果为 true 可以，如
            android:value="string" />
 ```
 
-[meta-data 属性解释](https://developer.android.google.cn/guide/topics/manifest/meta-data-element.html)
+**android:name**
+元数据项的名字，为了保证这个名字是唯一的，采用java风格的命名规范，如com.woody.project.fried
+
+**android:resource**
+资源的一个引用，指定给这个项的值是该资源的id。该id可以通过方法Bundle.getInt()来从meta-data中找到。
+
+**android:value**
+指定给这一项的值。可以作为值来指定的数据类型并且组件用来找回那些值的Bundle方法：[getString],[getInt],[getFloat],[getString],[getBoolean]
+
 
 ###### service
 
