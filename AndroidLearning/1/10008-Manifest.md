@@ -372,6 +372,8 @@ Activity 所吸附的任务栈，该属性一般在 lauchMode 为 singleTask 模
 
 ###### meta-data
 
+可以提供给父组件的其他任意数据项的名称 - 值对。组件元素可以包含任意数量的<meta-data>子元素。所有这些值都收集在一个 Bundle 对象中，并作为 PackageItemInfo.metaData 字段提供给组件 。
+
 ```
 <meta-data android:name="string"
            android:resource="resource specification"
@@ -379,16 +381,18 @@ Activity 所吸附的任务栈，该属性一般在 lauchMode 为 singleTask 模
 ```
 
 **android:name**
-元数据项的名字，为了保证这个名字是唯一的，采用java风格的命名规范，如com.woody.project.fried
+元数据项的名字，为了保证这个名字是唯一的，采用 java 风格的命名规范，如 com.woody.project.fried
 
 **android:resource**
-资源的一个引用，指定给这个项的值是该资源的id。该id可以通过方法Bundle.getInt()来从meta-data中找到。
+资源的一个引用，指定给这个项的值是该资源的 id。该 id 可以通过方法 Bundle.getInt()来从 meta-data 中找到。
 
 **android:value**
-指定给这一项的值。可以作为值来指定的数据类型并且组件用来找回那些值的Bundle方法：[getString],[getInt],[getFloat],[getString],[getBoolean]
-
+指定给这一项的值。可以作为值来指定的数据类型并且组件用来找回那些值的 Bundle 方法：[getString],[getInt],[getFloat],[getString],[getBoolean]
 
 ###### service
+
+声明服务（Service 子类）作为应用程序的组件之一。与活动不同，服务缺乏可视化用户界面。它们用于实现长时间运行的后台操作或可由其他应用程序调用的丰富通信 API。
+所有服务必须由<service>清单文件中的元素表示。任何未在此处声明的内容都不会被系统看到并且永远不会被运行。
 
 ```
 <service android:description="string resource"
@@ -405,9 +409,29 @@ Activity 所吸附的任务栈，该属性一般在 lauchMode 为 singleTask 模
 </service>
 ```
 
-[service 属性解释](https://developer.android.google.cn/guide/topics/manifest/service-element.html)
+常用属性：
+
+**android:exported**
+代表是否能被其他应用隐式调用，其默认值是由 service 中有无 intent-filter 决定的，如果有 intent-filter，默认值为 true，否则为 false。为 false 的情况下，即使有 intent-filter 匹配，也无法打开，即无法被其他应用隐式调用。
+
+**android:name**
+对应 Service 类名
+
+**android:permission**
+是权限声明
+
+**android:process**
+是否需要在单独的进程中运行,当设置为 android:process=”:remote”时，代表 Service 在单独的进程中运行。注意“：”很重要，它的意思是指要在当前进程名称前面附加上当前的包名，所以“remote”和”:remote”不是同一个意思，前者的进程名称为：remote，而后者的进程名称为：App-packageName:remote。
+
+**android:isolatedProcess**
+设置 true 意味着，服务会在一个特殊的进程下运行，这个进程与系统其他进程分开且没有自己的权限。与其通信的唯一途径是通过服务的 API(bind and start)。
+
+**android:enabled**
+是否可以被系统实例化，默认为 true 因为父标签 也有 enable 属性，所以必须两个都为默认值 true 的情况下服务才会被激活，否则不会激活。
 
 ###### receiver
+
+声明广播接收器（BroadcastReceiver 子类）作为应用程序的组件之一。广播接收器使应用程序能够接收由系统或其他应用程序广播的意图，即使应用程序的其他组件未运行也是如此。
 
 ```
 <receiver android:directBootAware=["true" | "false"]
@@ -422,9 +446,37 @@ Activity 所吸附的任务栈，该属性一般在 lauchMode 为 singleTask 模
 </receiver>
 ```
 
-[receiver 属性解释](https://developer.android.google.cn/guide/topics/manifest/receiver-element.html)
+**android:directBootAware**
+广播接收器是否可直接启动 ; 也就是说，它是否可以在用户解锁设备之前运行。默认值为"false"。
+
+**android:enabled**
+广播接收机是否可以由系统实例化 - “ true”如果它可以，并且“ false”如果不是。默认值为“ true”。
+该<application>元素具有自己的 enabled 属性，适用于所有应用程序组件，包括广播接收器。在 <application>和 <receiver>属性都必须是“ true”为启用广播接收机。如果其中一个是“ false”，则禁用; 它无法实例化。
+
+**android:exported**
+广播接收机是否可以从其应用程序之外的来源接收消息 - “ true”如果可以，则“和 false”如果不能。如果是“ false”，则广播接收器可以接收的唯一消息是由相同应用程序的组件或具有相同用户 ID 的应用程序发送的消息。
+
+**android:icon**
+表示广播接收器的图标。必须将此属性设置为对包含图像定义的可绘制资源的引用。
+
+**android:label**
+广播接收器的用户可读标签。如果未设置此属性，则使用整个应用程序的标签集
+
+标签应设置为对字符串资源的引用，以便它可以像用户界面中的其他字符串一样进行本地化。但是，为了方便您开发应用程序，它也可以设置为原始字符串。
+
+**android:name**
+实现广播接收器的类的名称，是其子类 BroadcastReceiver。这应该是一个完全限定的类名（例如“ com.example.project.ReportReceiver”）。但是，作为简写，如果名称的第一个字符是句点（例如，“ . ReportReceiver”），则它将附加到<manifest>元素中指定的包名称。
+发布应用程序后，不应更改此名称（除非您已设置 android:exported="false"）。
+
+**android:permission**
+广播公司必须具有向广播接收器发送消息的权限的名称。如果未设置此属性，则<application>元素 permission 属性设置的权限 适用于广播接收器。如果两个属性均未设置，则接收方不受权限保护。
+
+**android:process**
+广播接收器应运行的进程的名称。通常，应用程序的所有组件都在为应用程序创建的默认进程中运行。它与应用程序包具有相同的名称。该 <application>元素的 process 属性可以为所有的组件不同的默认。但是每个组件都可以使用自己的 process 属性覆盖默认值，从而允许您跨多个进程分布应用程序。
 
 ###### provider
+
+声明内容提供程序组件。内容提供者是其子类 ContentProvider，提供对应用程序管理的数据的结构化访问。必须<provider>在清单文件的元素中定义应用程序中的所有内容提供者 ; 否则，系统不知道它们并且不运行它们。
 
 ```
 <provider android:authorities="list"
@@ -447,4 +499,55 @@ Activity 所吸附的任务栈，该属性一般在 lauchMode 为 singleTask 模
 
 ```
 
-[provider 属性解释](https://developer.android.google.cn/guide/topics/manifest/provider-element.html)
+**android:authorities**
+一个或多个URI权限的列表，用于标识内容提供商提供的数据。通过用分号分隔它们的名称来列出多个权限。为避免冲突，权限名称应使用Java样式的命名约定（例如com.example.provider.cartoonprovider）。通常，它ContentProvider是实现提供程序的子类 的名称。没有默认值。必须至少指定一个权限。
+
+**android:enabled**
+内容提供者是否可以由系统实例化 - “ true”如果可以，以及“ false”如果不是。默认值为“ true”。
+该<application>元素具有自己的 enabled属性，适用于所有应用程序组件，包括内容提供程序。在 <application>和<provider> 属性都必须是“true”（因为它们都是由默认值）启用内容提供商。如果其中一个是“ false”，则提供者被禁用; 它无法实例化。
+
+**android:directBootAware**
+内容提供者是否可以直接启动 ; 也就是说，它是否可以在用户解锁设备之前运行。默认值为"false"。
+
+**android:exported**
+内容提供商是否可供其他应用程序使用：
+true：提供程序可用于其他应用程序。任何应用程序都可以使用提供程序的内容URI来访问它，具体取决于为提供程序指定的权限。
+false：提供程序不可用于其他应用程序。设置 android:exported="false"为限制对应用程序的提供程序的访问。只有与提供者具有相同用户ID（UID）的应用程序才能访问它。
+
+**android:grantUriPermissions**
+无论那些谁通常不会有权限访问内容提供商的数据可以被获准这样做，暂时克服强加的限制 readPermission， writePermission以及 permission属性- “ true”如果权限可以授予，而“ false”如果没有。如果是“ true”，则可以向任何内容提供商的数据授予权限。如果为“ false”，则只能授予子<grant-uri-permission>元素中列出的数据子集的权限 （如果有）。默认值为“ false”。
+
+**android:icon**
+表示内容提供商的图标。必须将此属性设置为对包含图像定义的可绘制资源的引用。如果未设置，则使用为整个应用程序指定的图标
+
+**android:initOrder**
+相对于由同一进程托管的其他内容提供程序，应实例化内容提供程序的顺序。当内容提供者之间存在依赖关系时，为每个提供者设置此属性可确保按照这些依赖关系所需的顺序创建它们。该值是一个简单的整数，首先初始化更高的数字。
+
+**android:label**
+提供的内容的用户可读标签。如果未设置此属性，则使用整个应用程序的标签集
+标签应设置为对字符串资源的引用，以便它可以像用户界面中的其他字符串一样进行本地化。但是，为了方便您开发应用程序，它也可以设置为原始字符串。
+
+**android:multiprocess**
+如果应用程序在多个进程中运行，则此属性确定是否创建了内容提供程序的多个实例。如果true，每个应用程序的进程都有自己的内容提供程序对象。如果 false，应用程序的进程只共享一个内容提供程序对象。默认值为false。
+将此标志设置为true可以通过减少进程间通信的开销来提高性能，但它也会增加每个进程的内存占用量。
+
+**android:name**
+实现内容提供程序的类的名称，是其子类 ContentProvider。这应该是一个完全限定的类名（例如“ com.example.project.TransportationProvider”）。但是，作为简写，如果名称的第一个字符是句点，则将其附加到<manifest>元素中指定的包名称 。没有默认值。必须指定名称。
+
+**android:permission**
+客户端必须具有读取或写入内容提供者数据的权限的名称。此属性是为读取和写入设置单个权限的便捷方式。但是， readPermission和 writePermission属性优先于此属性。如果readPermission 还设置了该属性，则它控制查询内容提供程序的访问权限。如果writePermission设置了该属性，它将控制用于修改提供者数据的访问权限。
+
+**android:process**
+内容提供程序应运行的进程的名称。通常，应用程序的所有组件都在为应用程序创建的默认进程中运行。它与应用程序包具有相同的名称。该 <application>元素的 process 属性可以为所有的组件不同的默认。但是每个组件都可以使用自己的process属性覆盖默认值，从而允许您跨多个进程分布应用程序。
+如果分配给此属性的名称以冒号（'：'）开头，则在需要时创建一个专用于应用程序的新进程，并在该进程中运行活动。如果进程名称以小写字符开头，则活动将在该名称的全局进程中运行，前提是它具有执行此操作的权限。这允许不同应用程序中的组件共享进程，从而减少资源使用。
+
+**android:readPermission**
+客户端必须具有查询内容提供者的权限。
+
+**android:syncable**
+内容提供者控制下的数据是否与服务器上的数据同步 - “ true”如果要同步，“ false”如果不同步。
+
+**android:writePermission**
+客户端必须具有的权限才能更改内容提供程序控制的数据。
+
+
