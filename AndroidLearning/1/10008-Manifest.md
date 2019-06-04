@@ -93,39 +93,40 @@ ext{
 
 附：常用权限
 
-功能|权限|注释
----|:--:|---:
-访问网络| android.permission.INTERNET  |访问网络连接
-网络状态 | android.permission.ACCESS_NETWORK_STATE | 允许程序访问网络状态，如是否能联网
-程序缓存 | android.permission.MOUNT_UNMOUNT_FILESYSTEMS | 允许挂载和反挂载可移动存储文件系统，
-SD卡写操作 | android.permission.WRITE_EXTERNAL_STORAGE | 允许程序写入外部存储，如SD卡上写文件
-拨打电话 | android.permission.CALL_PHONE | 允许一个程序初始化一个电话拨号不需通过拨号用户界面
-读取联系人 | android.permission.READ_CONTACTS | 允许应用访问联系人通讯录信息
-处理拨出电话 | android.permission.PROCESS_OUTGOING_CALLS | 允许程序监视、修改有关播出电话
-发送短信 | android.permission.SEND_SMS | 发送短信
-接收短信 | android.permission.RECEIVE_SMS | 允许程序监控一个将收到短信息，记录或处理
-读取短信内容 | android.permission.READ_SMS | 允许程序读取短信息
-粗略位置 | android.permission.ACCESS_COARSE_LOCATION |  通过WiFi或基站获取粗略经纬度，精度误差:30~1500米
-精确位置 | android.permission.ACCESS_FINE_LOCATION |  通过GPS芯片接收卫星的定位信息,精度达10米内
-wifi状态 | android.permission.ACCESS_WIFI_STATE |  获取当前WiFi接入的状态以及WLAN热点的信息
-打开摄像头 | android.permission.CAMERA |  允许访问摄像头进行拍照
-闪光灯 | android.permission.FLASHLIGHT |  控制闪光灯
-电量统计 | android.permission.BATTERY_STATS |  获取电池电量统计信息
-开机启动 | android.permission.RECEIVE_BOOT_COMPLETED |  允许程序开机允许服务
-使用蓝牙 | android.permission.BLUETOOTH | 允许程序连接配对过的蓝牙设备
-管理蓝牙 | android.permission.BLUETOOTH_ADMIN | 允许程序进行发现和配对新的蓝牙设备
-闹钟 | android.permission.SET_ALARM | 设置闹铃提醒
-应用大小 | android.permission.GET_PACKAGE_SIZE | 获取应用的文件大小
-声音设置 | android.permission.MODIFY_AUDIO_SETTINGS | 修改声音设置信息
-录音 | android.permission.RECORD_AUDIO | 录制声音通过手机或耳机的麦克
-振动 | android.permission.VIBRATE | 手机振动
-桌面壁纸 | android.permission.SET_WALLPAPER | 设置桌面壁纸
-系统设置 | android.permission.WRITE_SETTINGS | 允许读写系统设置项
+| 功能         |                     权限                     |                                                  注释 |
+| ------------ | :------------------------------------------: | ----------------------------------------------------: |
+| 访问网络     |         android.permission.INTERNET          |                                          访问网络连接 |
+| 网络状态     |   android.permission.ACCESS_NETWORK_STATE    |                    允许程序访问网络状态，如是否能联网 |
+| 程序缓存     | android.permission.MOUNT_UNMOUNT_FILESYSTEMS |                  允许挂载和反挂载可移动存储文件系统， |
+| SD 卡写操作  |  android.permission.WRITE_EXTERNAL_STORAGE   |                允许程序写入外部存储，如 SD 卡上写文件 |
+| 拨打电话     |        android.permission.CALL_PHONE         |    允许一个程序初始化一个电话拨号不需通过拨号用户界面 |
+| 读取联系人   |       android.permission.READ_CONTACTS       |                          允许应用访问联系人通讯录信息 |
+| 处理拨出电话 |  android.permission.PROCESS_OUTGOING_CALLS   |                        允许程序监视、修改有关播出电话 |
+| 发送短信     |         android.permission.SEND_SMS          |                                              发送短信 |
+| 接收短信     |        android.permission.RECEIVE_SMS        |              允许程序监控一个将收到短信息，记录或处理 |
+| 读取短信内容 |         android.permission.READ_SMS          |                                    允许程序读取短信息 |
+| 粗略位置     |  android.permission.ACCESS_COARSE_LOCATION   |   通过 WiFi 或基站获取粗略经纬度，精度误差:30~1500 米 |
+| 精确位置     |   android.permission.ACCESS_FINE_LOCATION    |        通过 GPS 芯片接收卫星的定位信息,精度达 10 米内 |
+| wifi 状态    |     android.permission.ACCESS_WIFI_STATE     |          获取当前 WiFi 接入的状态以及 WLAN 热点的信息 |
+| 打开摄像头   |          android.permission.CAMERA           |                                允许访问摄像头进行拍照 |
+| 闪光灯       |        android.permission.FLASHLIGHT         |                                            控制闪光灯 |
+| 电量统计     |       android.permission.BATTERY_STATS       |                                  获取电池电量统计信息 |
+| 开机启动     |  android.permission.RECEIVE_BOOT_COMPLETED   |                                  允许程序开机允许服务 |
+| 使用蓝牙     |         android.permission.BLUETOOTH         |                          允许程序连接配对过的蓝牙设备 |
+| 管理蓝牙     |      android.permission.BLUETOOTH_ADMIN      |                    允许程序进行发现和配对新的蓝牙设备 |
+| 闹钟         |         android.permission.SET_ALARM         |                                          设置闹铃提醒 |
+| 应用大小     |     android.permission.GET_PACKAGE_SIZE      |                                    获取应用的文件大小 |
+| 声音设置     |   android.permission.MODIFY_AUDIO_SETTINGS   |                                      修改声音设置信息 |
+| 录音         |       android.permission.RECORD_AUDIO        |                          录制声音通过手机或耳机的麦克 |
+| 振动         |          android.permission.VIBRATE          |                                              手机振动 |
+| 桌面壁纸     |       android.permission.SET_WALLPAPER       |                                          设置桌面壁纸 |
+| 系统设置     |      android.permission.WRITE_SETTINGS       |                                    允许读写系统设置项 |
 
 **android:maxSdkVersion**
 此权限应授予应用的最高 API 级别。如果应用需要的权限从某个 API 级别开始不再需要，则设置此属性很有用。
 
 ###### uses-feature
+
 声明应用使用的单一硬件或软件功能。
 
 ```
@@ -158,7 +159,7 @@ wifi状态 | android.permission.ACCESS_WIFI_STATE |  获取当前WiFi接入的�
 
 ###### application
 
-
+申请应用的声明。此元素包含子元素，这些子元素声明每个应用程序的组件，并具有可影响所有组件的属性
 
 ```
 <application android:allowTaskReparenting=["true" | "false"]
@@ -203,9 +204,73 @@ wifi状态 | android.permission.ACCESS_WIFI_STATE |  获取当前WiFi接入的�
 </application>
 ```
 
-[application 属性解释](https://developer.android.google.cn/guide/topics/manifest/application-element.html)
+常用属性
+
+**android:allowClearUserData**
+是否给以用户删除用户数据的权限.如果为 true 应用管理者就拥有清除数据的权限；false 没有。默认为 true。
+
+**android:allowTaskReparenting**
+应用定义的 activities 是否可以被从启动的任务转移到和他有相同并且将被带到前台的任务。true 他们可以被转移，如果为 false，他们必须和启动他们的任务保持在一起。默认为 false。
+
+**android:backupAgent**
+实现应用的备份代理的类名，BackupAgent 的子类。这个属性的名称因该是全限定类名(如，”com.madreain.project.MyBackupAgent”)。但是，如果名称的首字母被设置为点号，也可以为类名(如，”.MyBackupAgent”)，他将被追加到在<manifest/>元素中定义的包名后。没有默认值。
+
+**android:debuggable**
+应用是否可以使用 debug，甚至运行在用户模式下。true 可以，false 不能。默认为 false。
+
+**android:description**
+用户可读的，比应用标签更长、更多的应用描述。此值必须是一个引用字符串。不像标签，他不能被设置为硬编码字符串。没有默认值。
+
+**android:enabled**
+Android 系统是否可以实例化应用的组件。如果为 true 可以，如果为 false 不可以。如果为 true，每个组件的 enabled 属性决定了此组件。如果为 false，他重写了组件指定值，所有的组件将不还用。默认为 true。
+
+**android:hasCode**
+应用是否包含代码。true 表示包含，false 表示不包含。当值为 false 时，在启动组件是系统不会试着加载应用的任何代码。默认为 true。
+
+**android:icon**
+整个应用的图标，还是每个组件的默认图标。这个属性值 必须 被设置为 drawable 资源的引用。没有默认值。
+
+**android:killAfterRestore**
+在整型系统重置操作中，当他的设置被重置后，应用是否应该被终止。单个包的重置操作不会引起应用被关闭。整个系统的恢复操作仅代表性的发生一次，当电话第一次被设置时。第三方应用将不会经常使用此属性。默认值为 true，意思是，当整个系统被恢复时，应用运行完他的数据后，将会终止。
+
+**android:label**
+一个易读的应用标签，并且还是应用的每个组件的默认标签。这个标签应该被设置为引用字符串资源，当然他也可以像其他字符串一样在用户接口中指定。但是为了方便，在应用开发时，可以被设置未定义字符串。
+
+**android:name**
+为这个应用实现的 Application 子类的全限定名称。当应用启动时，这个类将在应用的其他组件之前被实例化。这个子类是可选的；大多数应用不需要。在缺省时，Android 使用基本 Application 类的实例。
+
+**android:permission**
+客户为了和应用交互必须设置的许可的名称。这个属性是一个便利的途径为应用的组件设置许可。他可以被组件的 permission 属性重写。
+
+**android:persistent**
+应用是否在所有时间下都保持运行。true 是，false 不是。默认为 false。通常情况下应用不应该设置此标识。持久模式仅仅被几个系统应用指定。
+
+**android:process**
+为应用下的组件定一个运行进程名称。每个组件可以定义自己的进程名称通过设置自己的 process 属性。在默认情况下，Android 为应用创建一个进程，当应用的第一个组件需要运行时。所有的组件在同一个进程下运行。这个进程的名称和在<manifest/>元素设置的 backage 属性名相同。通过设置这个属性在可以在其他应用中共享，你可以协调应用的组件在同一个进程中运行，但是只有两应用也共享用户 ID 和签订相同的证书。如果这个属性的名称一个冒号(“:”)开始，一个新的私有的进程将被创建。如果一个进程的名称以小写字母开头，一个公共的进程将被创建。一个公共的进程可以被其他应用共享，来减少资源的使用。
+
+**android:restoreAnyVersion**
+表明这个应用准备尝试恢复所有的备份数据集合，甚至如果备份数据是比当前安装的应用高的编号存储的。设置为 true 将允许备份管理者去尝试恢复当版本不匹配，意思是数据冲突。要小心使用。默认为 false。
+
+**android:taskAffinity**
+提供给应用下所有组件的类同名称，除了设置了自己的 taskAffinity 属性的组件。默认情况下所有的组件使用相同的 affinity。Affinity 的名称和在<manifest/>元素中设置的包名相同。
+
+**android:theme**
+为应用下的组件定义一个引用自样式资源的主题。个别的 activities 可以设置自己的主题，通过设置自己的 theme 属性。
+
+**android:allowBackup**
+它表示是否允许应用程序参与备份。如果将该属性设置为 false,则即使备份整个系统,也不会执行这个应用程序的备份操作。而整个系统备份能导致所有应用程序数据通过 ADB 来保存。该属性必须是一个布尔值，或为 true，或为 false。默认值为 true。
+
+**android:largeHeap**
+应用程序是否使用一个比较大的堆创建。它是一个布尔值，在没有配置的情况下，它的默认值是 false。
+
+**android:manageSpaceActivity**
+一个 Activity 子类的全限定名称，这个 Activity 可以被系统启动让用户管理此应用占有的存储空间。这个 Activity 也应该用<activity/>元素声明。
+
+
+非常用属性可查看[application 属性解释](https://developer.android.google.cn/guide/topics/manifest/application-element.html)
 
 ###### activity
+
 
 ```
 <activity android:allowEmbedded=["true" | "false"]
@@ -260,6 +325,8 @@ wifi状态 | android.permission.ACCESS_WIFI_STATE |  获取当前WiFi接入的�
 </activity>
 
 ```
+
+
 
 [activity 属性解释](https://developer.android.google.cn/guide/topics/manifest/activity-element.html)
 
