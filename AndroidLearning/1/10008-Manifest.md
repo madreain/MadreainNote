@@ -272,6 +272,7 @@ Android 系统是否可以实例化应用的组件。如果为 true 可以，如
 ###### activity
 
 
+
 ```
 <activity android:allowEmbedded=["true" | "false"]
           android:allowTaskReparenting=["true" | "false"]
